@@ -1,5 +1,5 @@
 /**
- * Corrector para la práctica de sql
+ * CORE19-07_quiz_mvc_server assignment checker
  */
 
 // IMPORTS
