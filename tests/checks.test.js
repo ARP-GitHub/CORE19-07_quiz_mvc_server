@@ -202,7 +202,7 @@ describe("CORE19-07_quiz_mvc_server", function () {
         // kill server
         if (server) {
             server.kill();
-            await to(timeout(T_WAIT * 1000));
+            await to(timeout(5 * 1000));
         }
         // restore original db file
         try {fs.copySync(quizzes_back, quizzes_orig, {"overwrite": true});} catch (e){}
